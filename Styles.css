@@ -1,0 +1,324 @@
+p .hoda_arrone_Icon{
+width: 35px;
+background-color: #21c61b;
+cursor: pointer;
+top: 183px;
+right: 0%;
+position: absolute;
+z-index: 5;
+display: block;
+
+
+}
+p .hoda_arrtwo_Icon{
+width: 35px;
+background-color: #30da19;
+cursor: pointer;
+top: 183px;
+left: 0%;
+position: absolute;
+
+}
+
+
+.navbar form{
+display: flex;
+margin-right: 9px;
+}
+.navbar input{
+margin-right: 9px;
+}
+
+.hoda_arro_two{
+  background-color: yellow;
+}
+
+
+
+.hoda_slids{
+  position: relative;
+  
+  
+}
+
+
+
+.hoda_arrone_Icon:hover{
+  background-color: brown;
+
+}
+
+
+
+
+/* side by side images slider */
+
+.slider-containertwo{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.slider-container{
+  width: 95%;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.slider-title {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #333;
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+  transition: 0.5s ease;
+  margin: 12px;
+  width: 190px;
+  height: 390px;
+  
+}
+
+.slider-item img {
+  width: 100%;
+  border-radius: 10px;
+  height: 250px;
+  width: 190px;
+}
+
+.item-title {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.item-subtitle {
+  font-size: 14px;
+  color: #888;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(18, 172, 13, 0.5);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20%;
+}
+.next:hover {
+  background-color: chartreuse;
+}
+.prev:hover {
+  background-color: chartreuse;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
+
+
+
+
+
+
+
+.ofcanvs{
+top: -441px;
+
+}
+
+
+.offcavsButn{
+    position: relative;
+}
+
+.offcavsButn button{
+    position: absolute;
+    top: 19px;
+    margin-left: 350px;
+    background-color: #1bc61b;
+    display: block;
+    width: 33px;
+    height:33px;
+
+}
+
+
+
+
+
+
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 155px;
+  height:218px;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.texttweenty {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+.See_Details {
+    font-size: 11px; /* Change font size */
+    font-weight: bold; /* Make text bold */
+    color: white; /* Text color */
+    background-color: #727c86; /* Background color */
+    border: none; /* Remove button border */
+    padding: 10px 10px; /* Padding inside the button */
+    cursor: pointer; /* Show pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 9px;
+}
+
+.See_Details p {
+    margin:0; 
+color: #000;
+  }
+
+
+
+
+
+  /* General Footer Styling */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 15px;
+}
+
+.footer-column h3 {
+  color: #ff8c00;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  color: #ff8c00;
+}
+
+.footer-logo {
+  max-width: 120px;
+  margin-bottom: 20px;
+}
+
+.footer-social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0e0e0;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #ff8c00;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-column {
+      margin-bottom: 30px;
+  }
+}
+
+
